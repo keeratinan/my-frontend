@@ -1,0 +1,52 @@
+name: my_luxe_house
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  font_awesome_flutter: ^10.1.0
+  provider: ^6.0.0
+  mongo_dart: 0.8.2 
+  http: ^0.13.3
+  cached_network_image: ^3.2.3
+  dropdown_search: ^5.0.0
+  image_picker: ^0.8.4+1
+  intl: ^0.17.0
+  image: ^3.0.1
+  url_launcher: ^6.0.17
+  qr_flutter: ^4.0.0
+  barcode: ^2.1.4
+  flutter_svg: ^1.0.3
+  charts_flutter: ^0.12.0
+  fl_chart: ^0.69.0
+  shared_preferences: ^2.0.9
+  badges: ^2.0.3
+  path_provider: ^2.0.2
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mockito: ^5.0.16
+  build_runner: ^2.1.2
+
+fonts:
+  - family: NotoSans
+    fonts:
+      - asset: fonts/NotoSans-Regular.ttf
+
+flutter:
+  assets:
+    - assets/
+    - assets/BGBG.JPG
+  
+
+

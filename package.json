@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "http-proxy-middleware": "^3.0.2",
+    "mongoose": "^8.6.1"
+  }
+}
